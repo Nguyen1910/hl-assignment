@@ -1,0 +1,146 @@
+.app {
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+}
+.header {
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.header-logo img {
+  width: 75px;
+  height: 75px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-info-desc {
+  font-style: italic;
+  color: gray;
+  line-height: 1.25;
+  margin-bottom: 8px;
+}
+
+.user-info-name {
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.user-avatar img {
+  width: 75px;
+  height: 75px;
+}
+
+.banner {
+  background: #2fbc6e;
+  text-align: center;
+  color: white;
+  padding: 80px;
+}
+
+.banner-title {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+}
+
+.banner-sub-title {
+  font-size: 15px;
+  font-family: "Mulish", sans-serif;
+}
+
+.joke {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+.joke-content {
+  color: gray;
+  font-size: 20px;
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.divider {
+  border-top: 1px solid #dad5d5;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.joke-actions {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.btn {
+  height: 52px;
+  width: 280px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-blue {
+  background: #3088df;
+}
+
+.btn-green {
+  background: #2fbc6e;
+}
+
+.footer {
+  padding: 50px;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 2px solid #dad5d5;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: gray;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.footer-copyright {
+  font-size: 18px;
+  color: #6a6a6a;
+}
+@media only screen and (max-width: 640px) {
+  .app {
+  }
+  .container {
+    padding: 20px;
+  }
+
+  .joke-actions {
+    width: 80%;
+    margin: auto;
+  }
+
+  .divider {
+    display: none;
+  }
+}
